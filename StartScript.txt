@@ -1,0 +1,4 @@
+ls
+cd dir1
+cat text2.txt
+chmod 777 .
