@@ -70,15 +70,27 @@ tar. Эмулятор должен работать в режиме CLI.
 
 ## Примеры использования
 
-Below are some examples of using the emulator. [Here is a video demonstration](#) of the emulator in action.
+![Примеры использования команды `ls`](/images/ls-test)
 
+Примеры использования команды `ls`
+
+![Примеры использования команды `cat`](/images/cat-test)
+
+Примеры использования команды `cat`
+
+![Примеры использования команды `cd`](/images/cd-test)
+
+Примеры использования команды `cd`
+
+![Примеры использования команды `chmod`](/images/chmod-test)
+
+Примеры использования команды `chmod`
+
+![Примеры использования команды `exit`](/images/exit-test)
+
+Примеры использования команды `exit`
 ## Test Results
 
-All functions have been tested with various inputs to ensure they work as expected. Here are some test results:
+![Результаты прогона тестов](/images/tests-screen)
+Все функции эмулятора были протестированы. Результаты тестов представлены на скриншоте выше
 
-- **`ls`**: Correctly lists files and directories within the specified path.
-- **`cd`**: Navigates directories accurately, handling relative and absolute paths.
-- **`cat`**: Displays file contents and handles errors for directories.
-- **`chmod`**: Changes file permissions correctly and handles invalid inputs gracefully.
-
-For detailed test logs, please refer to the `tests` directory in the repository.
